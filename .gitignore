@@ -1,0 +1,16 @@
+# runtime logs from migrate.sh / rollback.sh
+logs/*
+!logs/.gitkeep
+
+# timestamped backups
+backups/*
+!backups/.gitkeep
+
+# patched exports created on --apply
+exports/*
+!exports/.gitkeep
+
+# editor / temp noise
+*.tmp
+*.bak
+*~
